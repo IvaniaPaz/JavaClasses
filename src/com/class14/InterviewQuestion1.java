@@ -32,18 +32,18 @@ public class InterviewQuestion1 {
 	
 	
 		
-//	    int first=10,second=88;	
-//		
-//		System.out.println("-----Before swap-------");
-//		System.out.println("First number is: "+first);
-//		System.out.println("Second number is: "+second);
-//		
-//		first=first-second;
-//		second=first+second;
-//		first=second-first;
-//		
-//		System.out.println("-----After swap-------");
-//		System.out.println("First number is= "+first);
-//		System.out.println("Second number is= "+second);
+	    int first=10,second=88;	
+		
+		System.out.println("-----Before swap-------");
+		System.out.println("First number is: "+first);
+		System.out.println("Second number is: "+second);
+		
+		first=first-second;
+		second=first+second;
+		first=second-first;
+		
+		System.out.println("-----After swap-------");
+		System.out.println("First number is= "+first);
+		System.out.println("Second number is= "+second);
 	}
 }
