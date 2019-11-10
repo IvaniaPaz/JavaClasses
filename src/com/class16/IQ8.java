@@ -5,7 +5,7 @@ public class IQ8 {
 	public static void main(String[] args) {
 		
 		/*Write a Java program to print first 10 numbers of Fibonacci numbers
-		 * we use the fibonacci numbers for our story point. then we split the answer to get it.
+		 * we use the Fibonacci numbers for our story point. then we split the answer to get it.
 		 * 
 		 */
 
