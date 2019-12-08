@@ -5,7 +5,12 @@ interface TakesScreenshot { // An interface uses the extends keyword to implemen
 	//public static final - adds this automatically.. no need to add that part 
 	String $FILE_EXTENSION=".png";
 	void takesPictures();
-	
+	static void takesSelfie() {
+	System.out.println("I am defined static method of TakesScreendhot Interface");
+	}
+	default void takesScreen() {
+		System.out.println("I am default defined method of TakesScreenshot interface");
+	}
 }
 
 interface Application{
