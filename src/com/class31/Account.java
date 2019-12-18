@@ -23,9 +23,9 @@ public class Account {
 	}
 
 	public void setAccountNumber(long accountNumber) {
-		if(String.valueOf(accountNumber).length()==9){
-		this.accountNumber = accountNumber;
+		if (String.valueOf(accountNumber).length() == 9) {
+			this.accountNumber = accountNumber;
 		}
-		
+
 	}
 }

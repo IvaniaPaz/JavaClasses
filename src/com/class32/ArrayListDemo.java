@@ -18,7 +18,11 @@ public class ArrayListDemo {
 		 * To retrieve value from arrayList
 		 */
 		System.out.println(arrayList.get(1));
-
+		
+		System.out.println("----remove----");		
+		arrayList.removeAll(arrayList);
+       System.out.println("----remove----");
+       
 		// add more values
 		arrayList.add("James");
 		arrayList.add("John");
